@@ -1,4 +1,31 @@
+# Talk Tracker
+
+Sometimes it's getting hard to track who is talked in meetings, especially meetings like Daily's :)
+You can create a participants list for meeting and click if the participant is talked or not.
+It uses local storage so you can come again and check that meeting's participants.
+
+## Demo
+
+Live demo: https://talk-tracker.netlify.app/
+
+## Screenshots
+
+<a href="https://ibb.co/SP3166w"><img src="https://i.ibb.co/L8Zq00d/Ekran-Resmi-2023-07-20-16-19-10.png" alt="Ekran-Resmi-2023-07-20-16-19-10" border="0"></a>
+<a href="https://ibb.co/NSZJPdG"><img src="https://i.ibb.co/5FBSygJ/Ekran-Resmi-2023-07-20-16-19-49.png" alt="Ekran-Resmi-2023-07-20-16-19-49" border="0"></a>
+<a href="https://ibb.co/4mFqRJT"><img src="https://i.ibb.co/JBc1jC7/Ekran-Resmi-2023-07-20-16-20-01.png" alt="Ekran-Resmi-2023-07-20-16-20-01" border="0"></a>
+<a href="https://ibb.co/H7JD08d"><img src="https://i.ibb.co/31JywZz/Ekran-Resmi-2023-07-20-16-20-09.png" alt="Ekran-Resmi-2023-07-20-16-20-09" border="0"></a>
+
+## Installation
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Run e2e test
+
+If you want to run e2e test for creating new meeting please run:
+
+```bash
+npx cypress open
+```
 
 ## Getting Started
 
@@ -13,26 +40,3 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
