@@ -1,0 +1,83 @@
+.newMeetingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--border-color-primary);
+    padding: 16px;
+    margin: 24px;
+    width: 100%;
+    min-width: 320px;
+    min-height: 450px;
+    border-radius: 8px;
+}
+
+.newMeetingForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.input {
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 16px !important;
+    width: 100%;
+    border: 2px solid var(--input-border);
+    transition: all .3s;
+    color: var(--heading-primary);
+}
+
+.newPersonForm {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    width: 100%;
+    margin: 16px 0;
+}
+
+.participants {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.index {
+    color: #FE9000;
+}
+
+.name {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--sub-heading-primary);
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.ctaButton,
+.button {
+    color: var(--button-primary);
+    border: 1px solid transparent;
+    transition: all .3s;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ctaButton:hover, .button:hover {
+    color: var(--button-primary-hover);
+    border: 1px solid var(--button-primary);
+    border-radius: 8px;
+}
+
+.saveButtonContainer {
+    margin-top: auto;
+    padding-top: 16px;
+}

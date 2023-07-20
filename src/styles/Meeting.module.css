@@ -1,0 +1,89 @@
+.meetingContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--border-color-primary);
+    padding: 16px;
+    margin: 24px;
+    width: 100%;
+    min-width: 320px;
+    min-height: 450px;
+    height: fit-content;
+    border-radius: 8px;
+}
+
+.meetingName {
+    text-align: center;
+    color: var(--heading-primary);
+    font-size: 32px;
+}
+
+.isTalked,
+.clear {
+    margin-top: 16px;
+    text-align: right;
+    width: 100%;
+    color: var(--heading-secondary);
+}
+
+.clear {
+    cursor: pointer;
+} 
+
+.meetingParticipant {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.participant {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all .3s;
+    border-bottom: 1px solid #FE9000;
+    padding: 4px 0;
+    height: 35px;
+}
+
+.index {
+    color: #FE9000;
+}
+
+.name {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--sub-heading-primary);
+}
+
+.goHomeContainer {
+    margin-top: auto;
+    padding-top: 24px;
+}
+
+.talkedIndicator {
+    width: 60px;
+    color: var(--sub-heading-primary);
+    text-align: right;
+    cursor: pointer;
+}
+
+.ctaButton {
+    color: var(--button-primary);
+    border: 1px solid transparent;
+    transition: all .3s;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.ctaButton:hover {
+    color: var(--button-primary-hover);
+    border: 1px solid var(--button-primary);
+    border-radius: 8px;
+}

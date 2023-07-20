@@ -1,0 +1,75 @@
+.meetingsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--border-color-primary);
+    padding: 16px;
+    margin: 24px;
+    width: 100%;
+    min-width: 320px;
+    min-height: 450px;
+    border-radius: 8px;
+}
+
+.noMeetings {
+    text-align: center;
+    margin-top: 40px;
+    color: var(--heading-secondary);
+    font-size: 16px;
+}
+
+.meetings {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.meeting {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all .3s;
+    border-bottom: 1px solid transparent;
+    padding: 4px 0;
+}
+
+.meeting:hover {
+    border-bottom: 1px solid #FE9000;
+}
+
+.index {
+    color: #FE9000;
+}
+
+.name {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--sub-heading-primary);
+}
+
+.participantsNumber {
+    width: 60px;
+    color: var(--sub-heading-primary);
+    text-align: right;
+}
+
+.ctaButton {
+    color: var(--button-primary);
+    border: 1px solid transparent;
+    transition: all .3s;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.ctaButton:hover {
+    color: var(--button-primary-hover);
+    border: 1px solid var(--button-primary);
+    border-radius: 8px;
+}
